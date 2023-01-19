@@ -5,7 +5,7 @@ function tabuada (){
         window.alert ("Por favor digite um numero")  
 
     } else {
-    let n = Number(num.value) /*valor digitado pelo usuario*/ 
+    let n = Number(num.value) 
     tab.innerHTML=''  
     for (c=1; c<=10; c++){           
         let item = document.createElement ("option")
